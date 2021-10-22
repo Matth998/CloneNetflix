@@ -1,0 +1,97 @@
+.principal{
+
+    height: 400px;
+
+    background: url(../img/round6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main section .titulos{
+    
+    padding-top: 4rem;
+
+}
+
+main section .description{
+
+    width: 60%;
+
+    margin-top: 1rem;
+
+}
+
+.button-section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.button{
+
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+
+    font-family: var(--neue);
+    color: var(--branco);
+    text-decoration: none;
+
+    margin-top: 1rem;
+    margin-right: 3rem;
+    padding: .7rem;
+
+}
+
+
+
+.icones{
+
+    width: 20px;
+    height: 20px;
+
+    margin-top: 0.1rem;
+    margin-right: 0.3rem;
+
+}
+
+.destaque{
+
+    margin-top: 1rem;
+
+}
+
+@media screen and (min-width: 674px){
+
+    main div .titulos{
+    
+        padding-top: 10rem;
+    
+    }
+    
+    main div .description{
+    
+        margin-top: 2rem;
+    
+    }
+
+    .button-section{
+
+        display: inline-block;
+
+    }
+
+    .button{
+
+        font-size: 1.5rem;
+
+    }
+
+}
+

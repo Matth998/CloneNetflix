@@ -1,0 +1,71 @@
+:root{
+
+    --vermelho: #db0c14;
+    --branco: #FFF;
+    --cinza: #d3d3d3;
+    --background: #141414;
+    --footer: #696969;
+    --preto: #000000;
+    --neue: 'Bebas Neue', cursive;
+
+}
+
+body{
+
+    background: var(--background);
+
+}
+
+.container{
+
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+.titulos{
+
+    font-family: var(--neue);
+    color: var(--branco);
+    font-size: 2.3rem;
+
+}
+
+.subtitulo{
+
+    font-family: var(--neue);
+    font-size: 2rem;
+    color: var(--branco);
+
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+
+}
+
+.description{
+
+    font-family: var(--neue);
+    font-size: .9rem;    
+    color: var(--branco);
+
+}
+
+@media screen and (min-width: 674px){
+
+    .description{
+
+        font-size: 1.1rem;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .description{
+
+        font-size: 1.4rem;
+
+    }
+
+}

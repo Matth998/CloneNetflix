@@ -1,0 +1,21 @@
+footer{
+
+    text-align: center;
+
+}
+
+.contato{
+
+    background: var(--footer);
+
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+.contato-itens{
+
+    margin-right: 2rem;
+
+
+}
